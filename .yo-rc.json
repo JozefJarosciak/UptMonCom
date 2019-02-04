@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "UptMonCom",
+    "packageName": "com.uptmoncom.application",
+    "packageFolder": "com/uptmoncom/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "sk",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "NjcxZmZhNzBiMzhlNGYzZTcxMjgzYTdjMTM1YzkxYmU2ZWRhMDc1YWE1OWYwODc3N2NlMTA0N2Y2OGYzY2I4MWY0OWMzOGQ4MThlZDdkMTBjMjcxN2Q0ODNjOWE1MTgzYTA0ODBlYmU1NWNmYjg0ZDMxOGFlMzI4ZjdjMTI2ZWE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "JozefJarosciak",
+  "repository-name": "UptMonCom"
+}
